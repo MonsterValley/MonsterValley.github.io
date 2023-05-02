@@ -1,2 +1,10 @@
-<iframe src="https://www.fusionjeunesse.org/jeuxvideo_files/22-23/Montreal/BaieSaintFrancois/MonsterValley/" height="640" width="960">960 x 640</iframe>
-<a href="https://www.fusionjeunesse.org/jeuxvideo_files/22-23/Montreal/BaieSaintFrancois/MonsterValley/">Fullscreen</a>
+<iframe id="iframe" src="https://www.fusionjeunesse.org/jeuxvideo_files/22-23/Montreal/BaieSaintFrancois/MonsterValley/" allowfullscreen="true" height="640" width="960">960 x 640</iframe>
+<btn id="fullscren" >Fullscreen</btn>
+
+<script>
+  
+  document.getElementById('fullscreen').onclick = function() {
+   document.getElementById('iframe').requestFullscreen()
+  };
+  
+</script>
